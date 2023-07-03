@@ -20,7 +20,7 @@ from model import  Resnet50FPN
 from utils import * 
 
 parser = argparse.ArgumentParser(description="Counting with SAM")
-parser.add_argument("-dp", "--data_path", type=str, default='../dataset/CARPK/', help="Path to the FSC147 dataset")
+parser.add_argument("-dp", "--data_path", type=str, default='./dataset/CARPK/', help="Path to the FSC147 dataset")
 parser.add_argument("-o", "--output_dir", type=str,default="./logsSave/CARPK", help="/Path/to/output/logs/")
 parser.add_argument("-ts", "--test-split", type=str, default='test', choices=["train", "test"], help="what data split to evaluate on on")
 parser.add_argument("-pt", "--prompt-type", type=str, default='point', choices=["box", "point"], help="what type of information to prompt")
