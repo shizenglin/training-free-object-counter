@@ -23,8 +23,8 @@ parser = argparse.ArgumentParser(description="Counting with SAM")
 parser.add_argument("-dp", "--data_path", type=str, default='./dataset/FSC147_384_V2/', help="Path to the FSC147 dataset")
 parser.add_argument("-o", "--output_dir", type=str,default="./logsSave/FSC147", help="/Path/to/output/logs/")
 parser.add_argument("-ts", "--test-split", type=str, default='test', choices=["train", "test", "val"], help="what data split to evaluate on on")
-parser.add_argument("-pt", "--prompt-type", type=str, default='text', choices=["box", "point", "text"], help="what type of information to prompt")
-parser.add_argument("-d", "--device", type=str,default='cuda:3', help="device")
+parser.add_argument("-pt", "--prompt-type", type=str, default='box', choices=["box", "point", "text"], help="what type of information to prompt")
+parser.add_argument("-d", "--device", type=str,default='cuda:0', help="device")
 args = parser.parse_args()
 
 if __name__=="__main__": 
