@@ -1,1 +1,2 @@
-
+Download the 'vit_b' pre-trained model of SAM with the following link: https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth
+Save the model to the folder 'pretrain'
