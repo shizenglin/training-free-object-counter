@@ -15,12 +15,13 @@ We express our sincere gratitude to the brilliant minds behind <a href="https://
 
 <h2> Citing </h2>
 If you use our code in your research, please use the following BibTeX entry.
-
+  ```
   @article{Shi2023promptcounting,
     title={Training-free Object Counting with Prompts},
     author={Zenglin Shi, Ying Sun, Mengmi Zhang},
     journal={arXiv:2304.02643},
     year={2023}
   }
+  ```
 
 
