@@ -1,4 +1,4 @@
-The code for the paper titled "Training-free Object Counting with Prompts" authored by Zenglin Shi, Ying Sun, Mengmi Zhang.
+The code for the paper titled <a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang.
 
 <h2> Installation </h2>
 1. The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. <br>
@@ -29,7 +29,7 @@ If you use our code in your research, please use the following BibTeX entry.
   @article{Shi2023promptcounting,
     title={Training-free Object Counting with Prompts},
     author={Zenglin Shi, Ying Sun, Mengmi Zhang},
-    journal={arXiv:2304.02643},
+    journal={arXiv:2307.00038},
     year={2023}
   }
  ```
