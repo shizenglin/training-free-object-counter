@@ -1,5 +1,5 @@
-Code for the paper titled <a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang.
-![image](https://github.com/shizenglin/training-free-object-counter/blob/main/model.png)
+<a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang.
+<img src="https://github.com/shizenglin/training-free-object-counter/blob/main/model.png" width="700" height="300">
 
 <h2> Installation </h2>
 1. The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. <br>
@@ -21,7 +21,7 @@ python main-carpk.py --test-split='test' --prompt-type='box' --device='cuda:0'
 ```
 
 <h2> Success and failure results </h2>
-![image](https://github.com/shizenglin/training-free-object-counter/blob/main/results.png)
+<img src="https://github.com/shizenglin/training-free-object-counter/blob/main/results.png" width="700" height="450">
 
 <h2> Acknowledgment </h2>
 We express our sincere gratitude to the brilliant minds behind <a href="https://github.com/facebookresearch/segment-anything" target="_blank">SAM</a> and <a href="https://github.com/xmed-lab/CLIP_Surgery" target="_blank">CLIP-Surgery</a>, as our code builds upon theirs. 
