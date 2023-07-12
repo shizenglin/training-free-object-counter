@@ -1,4 +1,7 @@
 Code for the paper titled <a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang.
+![image](https://github.com/shizenglin/training-free-object-counter/blob/main/model.png)
+![image](https://github.com/shizenglin/training-free-object-counter/blob/main/results.png)
+
 
 <h2> Installation </h2>
 1. The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. <br>
