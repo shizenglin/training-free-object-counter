@@ -24,7 +24,7 @@ python main-carpk.py --test-split='test' --prompt-type='box' --device='cuda:0'
 <img src="https://github.com/shizenglin/training-free-object-counter/blob/main/results.png" width="700" height="450">
 
 <h2> Acknowledgment </h2>
-We express our sincere gratitude to the brilliant minds behind <a href="https://github.com/facebookresearch/segment-anything" target="_blank">SAM</a> and <a href="https://github.com/xmed-lab/CLIP_Surgery" target="_blank">CLIP-Surgery</a>, as our code builds upon theirs. 
+We express our sincere gratitude to the brilliant minds behind <a href="https://github.com/facebookresearch/segment-anything" target="_blank">SAM</a>, <a href="https://github.com/ZrrSkywalker/Personalize-SAM" target="_blank">Personalize-SAM</a> and <a href="https://github.com/xmed-lab/CLIP_Surgery" target="_blank">CLIP-Surgery</a>, as our code builds upon theirs. 
 
 <h2> Citing </h2>
 If you use our code in your research, please use the following BibTeX entry.
