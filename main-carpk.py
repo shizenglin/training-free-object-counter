@@ -16,7 +16,6 @@ import matplotlib.pyplot as plt
 import cv2
 from shi_segment_anything import sam_model_registry, SamPredictor
 from shi_segment_anything.automatic_mask_generator_carpk import SamAutomaticMaskGenerator
-from model import  Resnet50FPN
 from utils import * 
 
 parser = argparse.ArgumentParser(description="Counting with SAM")
