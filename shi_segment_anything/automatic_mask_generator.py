@@ -338,7 +338,7 @@ class SamAutomaticMaskGenerator:
         # Run model on this batch
         transformed_points = self.predictor.transform.apply_coords(points, im_size).astype(int)
         # Applying for similarity prior to label negative and positive points
-        transformed_labels = sim_map[[transformed_points[:,1],transformed_points[:,0]]]
+        transformed_labels = sim_map[transformed_points[:,1],transformed_points[:,0]]
         # The batch would be passed if almost every points in the batch is negative
         if np.sum(transformed_labels)<(transformed_points.shape[0]/16):
             return MaskData(), point_mask
