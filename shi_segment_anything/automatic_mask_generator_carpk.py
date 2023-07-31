@@ -290,7 +290,7 @@ class SamAutomaticMaskGenerator:
     ):
         # Run model on this batch
         transformed_points = self.predictor.transform.apply_coords(points, im_size).astype(int)
-        transformed_labels = sim_map[[transformed_points[:,1],transformed_points[:,0]]]
+        transformed_labels = sim_map[transformed_points[:,1],transformed_points[:,0]]
         if np.sum(transformed_labels)<(transformed_points.shape[0]/16):
             return MaskData(), point_mask
         in_points = torch.as_tensor(transformed_points, device=self.predictor.device)
