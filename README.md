@@ -30,11 +30,11 @@ We express our sincere gratitude to the brilliant minds behind <a href="https://
 If you use our code in your research, please use the following BibTeX entry.
 
   ```
-  @article{Shi2023promptcounting,
+  @inproceedings{Shi2023promptcounting,
     title={Training-free Object Counting with Prompts},
     author={Zenglin Shi, Ying Sun, Mengmi Zhang},
-    journal={arXiv:2307.00038},
-    year={2023}
+    booktitle={WACV},
+    year={2024}
   }
  ```
 
