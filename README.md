@@ -1,5 +1,5 @@
 <img src="https://github.com/shizenglin/training-free-object-counter/blob/main/model.png" width="700" height="300">
-<a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang. <a href="http://arxiv.org/abs/2307.00038" target="_blank">[pdf]</a> <a href="http://arxiv.org/abs/2307.00038" target="_blank">[poster]</a> <a href="https://youtu.be/KhN7-pf-6mE" target="_blank">[video]</a> 
+<a href="http://arxiv.org/abs/2307.00038" target="_blank">Training-free Object Counting with Prompts</a> authored by Zenglin Shi, Ying Sun, Mengmi Zhang. <a href="http://arxiv.org/abs/2307.00038" target="_blank">[pdf]</a> <a href="https://github.com/shizenglin/training-free-object-counter/blob/main/poster.pdf" target="_blank">[poster]</a> <a href="https://youtu.be/KhN7-pf-6mE" target="_blank">[video]</a> 
 
 <h2> Installation </h2>
 1. The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. <br>
